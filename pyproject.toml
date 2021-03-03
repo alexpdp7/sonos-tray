@@ -5,13 +5,13 @@ description = ""
 authors = ["alex <alex@pdp7.net>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.6,<4"
 soco = "^0.21.1"
 pystray = "^0.17.2"
 PyGObject = {version = "^3.38.0", extras = ["linux"]}
 
 [tool.poetry.dev-dependencies]
-ipython = "^7.20.0"
+ipython = "^7.16.0"
 ipdb = "^0.13.4"
 black = "^20.8b1"
 flake8 = "^3.8.4"
